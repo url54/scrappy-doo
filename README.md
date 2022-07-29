@@ -32,12 +32,10 @@ sudo pip install -r requirements.txt
 ```
 
 # Usage
-Currently the only required switch is the -u switch, followed by the full-url of the target. I added argparse, for future updates and added features.
-Optionally you can use the -o switch at the end to specify the output file destination, if you so desire. 
+Currently the only required switch is the -u switch, followed by the full-url of the target. I added argparse, as I intend to add more functionality to it over time.
 Short | Long | Description
 ------|------|------------
 -u | --url | Full URL of your target.
--o | --out | Output file path (OPTIONAL).
 X | X | XXXX
 
 # Examples
