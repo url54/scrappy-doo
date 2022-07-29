@@ -21,10 +21,6 @@ Scrappy-doo was written in Python 3.10.5. This is the only version that it has b
 
 # Dependencies
 Srappy-doo was written with Requests, Re, Argparse, BeautifulSoup, pathlib, and colorama. This dependencies can be installed using the requirements.txt file.
-- Installation on Winddows:
-```bash
-c:\python27\python.exe -m pip install -r requirements.txt
-```
 
 - Installation on Linux:
 ```bash
