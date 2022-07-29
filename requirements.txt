@@ -1,0 +1,6 @@
+re
+requests
+argparse
+pathlib
+bs4
+colorama
