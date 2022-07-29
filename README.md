@@ -9,7 +9,7 @@ Scrappy-doo, scrapes the juicy goodness from websites. Providing a full-url, Scr
 - And all webpage strings.
 
 # Screenshot
-Insert image here.
+![Main Image](Images/scrappy-doo.png)
 
 # Installation
 ```bash
