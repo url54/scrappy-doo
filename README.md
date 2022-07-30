@@ -28,7 +28,6 @@ sudo pip install -r requirements.txt
 ```
 
 # Usage
-Currently the only required switch is the -u switch, followed by the full-url of the target. I added argparse, as I intend to add more functionality to it over time.
 Short | Long | Description
 ------|------|------------
 -h | --help | Display help and list of switches. 
