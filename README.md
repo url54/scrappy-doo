@@ -31,12 +31,40 @@ sudo pip install -r requirements.txt
 Currently the only required switch is the -u switch, followed by the full-url of the target. I added argparse, as I intend to add more functionality to it over time.
 Short | Long | Description
 ------|------|------------
--u | --url | Full URL of your target.
-X | X | XXXX
+-h | --help | Display help and list of switches. 
+-u | --url | Provide full url for the target.
+-f | --full | Full target scrape.
+-a | --anchor | Scrape the hrefs from the anchor tags.
+-m | --meta | Scrape the meta tags from the target.
+-c | --comment | Scrape the comments from the target.
+-s | --source | Scrape the sources from script tags.
+-S | --string | Scrape the strings from the target.
+-H | --hidden | Scrape hidden form fields.
 
 # Examples
-- Basic usage
+- Full list example
 ```bash
-./scrappy_doo.py -u https://www.google.com
+./scrappy_doo.py -u https://www.google.com -f
 ```
+
+- Scrape only anchors
+```bash
+./scrappy_doo.py -u https://www.google.com -a
+```
+
+- Scrape only meta tags
+```bash
+./scrappy_doo.py -u https://www.google.com -m
+```
+
+- Scrape a variety of items
+```bash
+./scrappy_doo.py -u https://www.google.com -a -s -S -c -H
+```
+
+- Scrape a variety of items one-switch style
+```bash
+./scrappy_doo.py -u https://www.google.com -asScH
+```
+
 
