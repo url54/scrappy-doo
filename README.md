@@ -40,7 +40,3 @@ X | X | XXXX
 ./scrappy_doo.py -u https://www.google.com
 ```
 
-- Output file usage
-```bash
-./scrappy_doo.py -u https://www.google.com -o /path/to/file.txt
-```
