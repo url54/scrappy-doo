@@ -17,7 +17,7 @@ git clone https://github.com/url54/scrappy-doo.git
 ```
 
 # Recommend Python Version
-Scrappy-doo was written in Python 3.10.5. This is the only version that it has been tested with, however, must of the requirements are pretyt generic, and should work with other versions of Python. 
+Scrappy-doo was written in Python 3.10.5. This is the only version that it has been tested with, however, most of the requirements are pretty generic, and should work with other versions of Python. 
 
 # Dependencies
 Srappy-doo was written with Requests, Re, Argparse, BeautifulSoup, pathlib, and colorama. This dependencies can be installed using the requirements.txt file.
