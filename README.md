@@ -1,7 +1,7 @@
 # About Scrappy-Doo
-Scrappy doo scrapes the juicy goodness from websites. Providing a full-URL, Scrappy-doo will print off the following items from the website's page:- The 
+Scrappy doo scrapes the juicy goodness from websites. Providing a full-URL, Scrappy-doo will print off the following items from the website's page:
 
-- website title.
+- The website title.
 - Website Meta Information.
 - Any comments in the page.
 - Any hidden form fields in the page.
